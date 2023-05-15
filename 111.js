@@ -18,7 +18,7 @@ if ('geolocation' in navigator) {
 function getTraditionalIP(onNewIP) {
   // 通过请求一个静态资源来获取IP地址信息
   var script = document.createElement("script");
-  script.src = "https://ipinfo.io/jsonp";
+  script.src = "https://4.ipw.cn/";
   script.type = "text/javascript";
   document.getElementsByTagName("head")[0].appendChild(script);
 
